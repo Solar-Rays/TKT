@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: poppins, sans-serif;    
+}
+header {
+    background-color: white;
+    box-shadow: 1px 1px 8px grey;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: auto;
+}
+.logo {
+    width: 150px;
+    min-height: 60px;
+    height: auto;
+    vertical-align: middle;
+    padding: .8em 0;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    font-size: .875rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+li a {
+    text-decoration: none;
+    color: #122b46;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.learnerships {
+    color: #A8982A;
+}
+
+ 
